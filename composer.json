@@ -1,0 +1,19 @@
+{
+  "name": "protechstudio/oplogger",
+  "description": "Offers a convenient way to create an operation log for any Laravel 5 application. Supports parameters and writes log to database by default but can also be linked to different repositories.",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vito Laera",
+      "email": "vito.laera@protechstudio.it"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Protechstudio\\Oplogger\\": "src/"
+    }
+  }
+}
