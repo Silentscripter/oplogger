@@ -47,7 +47,7 @@ class Oplogger
      * @return bool True if successful, throws an OpLoggerKeyNotFoundException otherwise
      * @throws OpLoggerKeyNotFoundException
      */
-    public function write($opType, $typeParams = [], $userID = false)
+    public function write($opType, array $typeParams = [], $userID = false)
     {
         $userID = $this->getUserID($userID);
         $type = $this->getType($opType);
