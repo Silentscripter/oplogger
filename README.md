@@ -1,7 +1,7 @@
 Oplogger
 ========
 
-Offers a convenient and fast way to create a user operation log for any Laravel 5 application. It supports parameters and writes log to database by default but can also be used with a custom repository.
+It offers a convenient and fast way to create a user operation log for any Laravel 5 application. It supports parameters and writes log to database by default but can also be used with a custom repository.
 
 Installation
 ------------
