@@ -1,6 +1,6 @@
 {
   "name": "protechstudio/oplogger",
-  "description": "Offers a convenient way to create an user operation log for any Laravel 5 application. Supports parameters and writes log to database by default but can also be linked to different repositories.",
+  "description": "Offers a convenient way to create a user operation log for any Laravel 5 application. Supports parameters and writes log to database by default but can also be linked to different repositories.",
   "require": {
     "php": ">=5.5.9"
   },
