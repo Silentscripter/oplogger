@@ -9,6 +9,12 @@ class OploggerTest extends TestCase
 
     use DatabaseMigrations, DatabaseTransactions;
 
+    public function setUp()
+    {
+        parent::setUp();
+        $_SERVER['REMOTE_ADDR'] = '127.0.0.1';
+    }
+
     /**
      * @test
      */
