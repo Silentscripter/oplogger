@@ -18,11 +18,12 @@ class LogRepository implements LogRepositoryContract
         $this->model = $model;
     }
 
-    public function write($userID, $operation)
+    public function write($userID, $operation, $ip)
     {
         $this->model->create([
             'user_id' => $userID,
-            'operation' => $operation
+            'operation' => $operation,
+            'ip' => $ip
         ]);
 
         return true;

@@ -6,5 +6,5 @@ namespace Protechstudio\Oplogger\Repositories;
 interface LogRepositoryContract
 {
 
-    function write($userID, $operation);
+    function write($userID, $operation, $ip);
 }

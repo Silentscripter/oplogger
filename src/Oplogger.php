@@ -52,8 +52,9 @@ class Oplogger
         $userID = $this->getUserID($userID);
         $type = $this->getType($opType);
         $logString = vsprintf($type, $typeParams);
+        $ip = $_SERVER['REMOTE_ADDR'];
 
-        return $this->logRepository->write($userID, $logString);
+        return $this->logRepository->write($userID, $logString, $ip);
     }
 
     /**
